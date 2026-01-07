@@ -24,3 +24,75 @@
 .navbar .searchbar {
     display: flex;
 }
+
+.search {
+    display: flex;
+    border: 1px solid #cccccc;
+    width: 600px;
+    margin-right: 10px;
+}
+.search input {
+    border: none;
+    width: 90%;
+    padding-left: 5px;
+}
+.search button {
+    border: none;
+    border-left: 1px solid #cccccc;
+    width: 10%;
+}
+
+.search button i {
+    margin: 0;
+    padding: 2px;
+}
+
+.material-icons {
+    color: #606060;
+    margin-right: 10px;
+}
+
+.mainbody {
+    display: flex;
+    height: calc(100vh - 56px);
+}
+
+.categories {
+    width: 240px;
+    height: 100%;
+    background: white;
+}
+
+.category {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 24px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.category:hover {
+    background: #f9f9f9;
+
+}
+.active {
+    background: #d0d0d0;
+}
+
+.active:hover {
+    background: #d0d0d0;
+}
+
+.active i {
+    color: red;
+}
+
+.videos {
+    width: calc(100vw - 240px);
+    height: 100%;
+    background: #f9f9f9;
+    border-top: 1px solid #cccccc;
+}
+

@@ -1,0 +1,74 @@
+/* HTML Structure:
+Search Container:
+
+Create a <div> with the class of "search-container".
+Search Bar:
+
+Inside the search-container div:
+
+Add an input <input> tag with the type of "text" and a placeholder of "Search"
+Button:
+
+Below input tag:
+
+Add a button element <button> with the text content of "Search".
+Mic Icon:
+
+Below the button element:
+
+Add a span <span> tag with the classes of "material-symbols-outlined" and "voice-icon" and a text content of "mic".
+
+
+CSS Styling:
+Style the search-container (.search-container):
+
+Add a background color of "rgb(244, 244, 244)".
+Add a padding of "10px".
+Set display property to "flex".
+Set align-items to "center".
+Style the input (input):
+
+Add a width of "300px".
+Add a padding of "8px".
+Set the border of "1px solid rgb(204, 204, 204)".
+Add a border-radius of "4px".
+Style the button (button):
+
+Add a background-color of "rgb(255, 0, 0)".
+Add a color of "rgb(255, 255, 255)".
+Set padding to "8px".
+Set the border to "none".
+Add a border-radius of "4px".
+Set cursor to "pointer".
+Style the voice-icon (.voice-icon):
+
+Add a color of "rgb(102, 102, 102)".
+Add a margin-left of "10px".
+ */
+
+/* CSS Styling  */
+.search-container {
+    background-color: rgb(244, 244, 244);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+}
+button {
+    background-color: rgb(255, 0 ,0);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.voice-icon {
+    color: rgb(102, 102, 102);
+    margin-left: 10px;
+}

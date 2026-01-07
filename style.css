@@ -16,6 +16,11 @@
     align-items: center;
 }
 
+.logo img {
+    width: 100px;
+    margin-left: 10px;
+}
+
 .navbar .searchbar {
     display: flex;
 }

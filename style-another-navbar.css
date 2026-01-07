@@ -1,0 +1,107 @@
+/* HTML Structure:
+Logo:
+
+Inside the navbar div:
+
+Add a div <div> with the class of "logo".
+Logo Img:
+
+Inside the logo div:
+
+Add an image <img> tag with the following src:
+Image src:
+
+https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg
+Search Bar:
+
+Below logo div:
+
+Add a div with the class of "search-bar".
+Inside Search Bar:
+
+Inside the search bar div:
+
+Add an input <input> tag with the type of "text" and placeholder of "Search".
+Add a span <span> tag with the classes of "material-symbols-outlined" and "search-icon" and a text content of "search".
+Add a button tag <button> with the class of "signup-button" and text content of "Sign Up".
+
+
+CSS Styling:
+Style the logo image (.logo img):
+
+Set the width to "80px".
+Style the search bar (.search-bar):
+
+Set the display to "flex".
+Set the align-items to "center".
+Style the search-bar input (.search-bar input):
+
+Add a padding of "8px".
+Add a margin-right of "5px".
+Set the border to "none".
+Add a border-radius of "4px".
+Set the flex-grow to "1".
+Style the search-icon (.search-icon):
+
+Add a color of "rgb(255, 255, 255)".
+Set the font size to "20px".
+Set the cursor to "pointer".
+Style the signup-button (.signup-button):
+
+Add a background color of "rgb(255, 255, 255)".
+Add a color of "rgb(255, 0, 0)".
+Add a padding of "8px".
+Set the border to "none".
+Add a border-radius of "4px".
+Set the cursor to "pointer".
+ */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Your code here  */
+.logo img {
+  width: 80px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+.search-icon {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.signup-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

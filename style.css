@@ -120,6 +120,28 @@ body {
     margin-right: 24px;
 }
 
+.categories-footer {
+    padding: 25px;
+}
+
+.footer-section {
+    margin-bottom: 12px;
+}
+
+.footer-section span {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+    color: #606060;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #606060;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 .videos {
     width: calc(100vw - 240px);
     height: 100%;

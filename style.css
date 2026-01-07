@@ -16,7 +16,11 @@ body {
     align-items: center;
     height: 56px;
     padding: 0 16px;
+    position: sticky;
+    top: 0;
+    background: white;
 }
+
 .navbar .logo {
     display: flex;
     align-items: center;
@@ -62,6 +66,7 @@ body {
 .mainbody {
     display: flex;
     height: calc(100vh - 56px);
+    overflow: hidden; /*https://www.w3schools.com/css/css_overflow.asp*/
 }
 
 .category-section {
@@ -77,6 +82,7 @@ body {
     width: 240px;
     height: 100%;
     background: white;
+    overflow-y: scroll;
 }
 
 .category-heading{

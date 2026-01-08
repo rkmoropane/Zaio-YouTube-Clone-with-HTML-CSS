@@ -34,6 +34,8 @@ body {
 
 .navbar .searchbar {
     display: flex;
+    height: 32px;
+    align-items: center;
 }
 
 .search {
@@ -41,21 +43,23 @@ body {
     border: 1px solid #cccccc;
     width: 600px;
     margin-right: 10px;
+    height: 100%;
 }
 .search input {
     border: none;
     width: 90%;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 .search button {
     border: none;
     border-left: 1px solid #cccccc;
     width: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 .search button i {
     margin: 0;
-    padding: 2px;
 }
 
 .material-icons {

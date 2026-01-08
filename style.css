@@ -153,17 +153,20 @@ body {
     height: 100%;
     background: #f9f9f9;
     border-top: 1px solid #cccccc;
+    overflow-y: scroll;
 }
 
 .video-grid {
     display: flex;
+    flex-wrap: wrap;
     padding: 15px;
 }
 .video {
-    width: 25%; 
-    margin-right: 10px;
+    width: calc(25% - 12px);
+    margin-right: 12px;
     cursor: pointer;
-    margin: 20px;
+    margin-bottom: 35px;
+    /* margin: 20px; */
 }
 
 .video .thumbnail img {

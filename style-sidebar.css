@@ -1,0 +1,133 @@
+/* HTML Structure:
+Main Body:
+
+Create a div with the class "mainbody".
+Categories:
+
+Inside the mainbody div:
+
+Create a div with the class of "categories".
+Category Section:
+
+Inside the categories div:
+
+Create another div with the class "category-section".
+Home:
+
+Inside the category-section div:
+
+Add a span <span> with the classes "category" and "active" and the text content of "Home".
+Inside the category span before text content:
+
+Add another span with the class "material-symbols-outlined" and text content of "home".
+Explore:
+
+Below the first category span:
+
+Add a span <span> with the class of "category" and the text content of "Explore".
+Inside the category span before text content:
+
+Add another span with the class "material-symbols-outlined" and text content of "explore".
+Subscription:
+
+Below the second category span:
+
+Add a span <span> with the class of "category" and the text content of "Subscriptions".
+Inside the category span before text content:
+
+Add another span with the class "material-symbols-outlined" and text content of "subscriptions".
+
+
+CSS Styling:
+Style the mainbody div (.mainbody):
+
+Set the height to "600px".
+Set the width to "200px".
+Style the categories div (.categories):
+
+Set the height to "600px".
+Set the width to "200px".
+Add a background color of "rgb(255, 255, 255)".
+Style the category span (.category):
+
+Set the width to "200px".
+Set display property to "flex".
+Set align-items to "center".
+Add a height of "40px".
+Add "24px" padding to the left and right by using (0 24px).
+Set font size to "14px".
+Add a font weight of "400".
+Set cursor to "pointer"
+Style the category span on hover (.category:hover):
+
+Set the background color to "rgb(249, 249, 249)".
+Style the active class (.active):
+
+Set the background color to "rgb(208, 208, 208)".
+Set font weight to "500".
+Style the active class on hover (.active:hover):
+
+Set the background color to "rgb(208, 208, 208)".
+Style the material-symbols-outlined class (.material-symbols-outlined):
+
+Set margin-right to "24px".
+Style the material-symbols-outlined class inside an active class (.active .material-symbols-outlined):
+
+Add a color of "rgb(255, 0, 0)". */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-symbols-outlined {
+    color: #606060;
+    margin-right: 10px;
+}
+
+/* Your code here  */
+
+.mainbody {
+    height: 600px;
+    width: 200px;
+}
+.categories {
+    height: 600px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.category {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: rgb(249, 249, 249);
+}
+
+.active {
+    background-color: rgb(208, 208, 208);
+    font-weight: 500;
+}
+
+.active:hover {
+    background-color: rgb(208, 208, 208);
+}
+.material-symbols-outlined {
+    margin-right: 24px;
+}
+.active .material-symbols-outlined {
+    color: rgb(255, 0, 0);
+}

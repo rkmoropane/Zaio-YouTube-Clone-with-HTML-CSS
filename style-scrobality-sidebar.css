@@ -1,0 +1,67 @@
+/* HTML Structure:
+Scroll Container:
+
+Create a div with the class "scroll-container".
+Unordered List:
+
+Inside the scroll container div:
+
+Create an unordered list <ul>.
+List Items:
+
+Inside the unordered list add the following list items:
+
+<li>Item 1: Lorem ipsum dolor sit amet</li>
+<li>Item 2: Consectetur adipiscing elit</li>
+<li>Item 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Item 4: Ut enim ad minim veniam</li>
+<li>Item 5: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+<li>Item 6: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</li>
+<li>Item 7: Excepteur sint occaecat cupidatat non proident</li>
+<li>Item 8: Sunt in culpa qui officia deserunt mollit anim id est laborum</li>
+<li>Item 9: Lorem ipsum dolor sit amet</li>
+<li>Item 10: Consectetur adipiscing elit</li>
+
+
+CSS Styling:
+Style the scroll container (.scroll-container):
+
+Set the width of 250px.
+Set the height of 300px.
+Add a border of "1px solid rgb(221, 221, 221)".
+Set overflow-y to scroll.
+Set position to sticky.
+Set top to zero (top: 0).
+Add a background color of rgb(240, 240, 240).
+Style the unordered list (ul):
+
+Set padding to zero.
+Set list-style to none.
+Style the list items (li):
+
+Add padding of 10px.
+Set background color to rgb(52, 152, 219).
+Add margin of 2px
+ */
+
+/* css code is here  */
+.scroll-container {
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(221, 221, 221);
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    background-color: rgb(52, 152, 219);
+    margin: 2px;
+}

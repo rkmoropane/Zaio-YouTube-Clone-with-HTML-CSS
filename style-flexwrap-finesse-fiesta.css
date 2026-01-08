@@ -1,0 +1,49 @@
+/* CSS Styling:
+
+
+Your Task:
+
+Perform the following operations inside the style.css file:
+Style the flex-container class (.flex-container):
+
+Set display to "flex".
+Set flex-wrap to "wrap".
+Set justify-content to "space-around".
+Style the flex-items (.flex-item):
+
+Set width to "150px".
+Set min-height to "100px".
+Add a margin of "10px".
+Set box-sizing to "border-box". */
+
+.flex-item:nth-child(1) {
+  background-color: #3498db;
+}
+.flex-item:nth-child(2) {
+  background-color: #2ecc71;
+}
+.flex-item:nth-child(3) {
+  background-color: #e74c3c;
+}
+.flex-item:nth-child(4) {
+  background-color: #f39c12;
+}
+.flex-item:nth-child(5) {
+  background-color: #9b59b6;
+}
+.flex-item:nth-child(6) {
+  background-color: #1abc9c;
+}
+
+/* Your code here  */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flex-item {
+  width: 150px;
+  min-height: 100px;
+  margin: 10px;
+  box-sizing: border-box;
+}

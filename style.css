@@ -160,10 +160,10 @@ body {
     padding: 15px;
 }
 .video {
-    background: yellow;
     width: 25%; 
     margin-right: 10px;
-    /* height: ; */
+    cursor: pointer;
+    margin: 20px;
 }
 
 .video .thumbnail img {
@@ -172,4 +172,26 @@ body {
 
 .video .details {
     display: flex;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.video .profile {
+    margin-right: 12px;
+}
+
+.video .profile img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+.video .video-details p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.video .posted-by {
+    font-size: 14px;
+    font-weight: 500;
+    color: #606060;
 }

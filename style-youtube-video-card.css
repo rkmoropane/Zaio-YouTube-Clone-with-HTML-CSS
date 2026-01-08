@@ -1,0 +1,118 @@
+/* HTML Structure:
+Video Section:
+
+Inside the video-grid div:
+
+Create a div with the class "video".
+Thumbnail:
+
+Inside the video div:
+
+Create a div with the class "thumbnail".
+Thumbnail Image:
+
+Inside the thumbnail div:
+
+Add an image tag <img> with the following src:
+https://www.creativeitinstitute.com/images/course/course_1663052056.jpg
+
+
+Details:
+
+Below thumbnail div:
+
+Add a div with the class of "details".
+Profile Section:
+
+Inside the details div:
+
+Add another div with the class "profile".
+Profile Image:
+
+Inside the profile div:
+
+Add an image tag <img> with the following src:
+https://yt3.ggpht.com/ytc/AOPolaRvvUvn6t9MtTRGuFcz7Ba1f1T6BKYZ01egnEWJ=s68-c-k-c0x00ffffff-no-rj
+
+
+Video Title:
+
+Below profile div:
+
+Add a div with the class "video-title".
+Video Title Text:
+
+Inside video-title div:
+
+Add a paragraph <p> with the text content of "Introduction to Web Development - Workshop 1".
+
+
+CSS Styling:
+Style the video div (.video):
+
+Set the width to "300px".
+Set cursor to "pointer".
+Add a margin of "20px".
+Style the image inside the thumbnail div (.thumbnail img):
+
+Set the width to "300px".
+Style the details div (.details):
+
+Set display property to "flex".
+Add a margin-top of "5px".
+Style the profile div (.profile):
+
+Add a margin-right of "12px".
+Style the image inside the profile div (.profile img):
+
+Set border radius to "50%".
+Add a width of "36px".
+Add a height of "36px".
+Style the paragraph inside the video-title div (.video-title p):
+
+Set the font size to "14px".
+Set the font weight to "500".
+Add a line height of "20px". */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Your code here  */
+.video {
+  width: 300px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.thumbnail img {
+  width: 300px;
+}
+
+.details {
+  display: flex;
+  margin-top: 5px;
+}
+
+.profile {
+  margin-right: 12px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.video-title p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}

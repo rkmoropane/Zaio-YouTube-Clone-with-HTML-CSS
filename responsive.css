@@ -1,0 +1,97 @@
+/* ========= RESPONSIVE DESIGN ========= */
+
+/* Medium screens (tablets, small laptops) */
+@media (max-width: 1024px) {
+    .videos {
+        width: calc(100vw - 220px);
+    }
+
+    .video {
+        width: calc(33.333% - 12px);
+    }
+
+    .navbar .searchbar {
+        max-width: 480px;
+    }
+}
+
+/* Tablets & big phones (portrait) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 8px 12px;
+    }
+
+    .navbar .logo {
+        margin-left: 0;
+    }
+
+    .navbar .searchbar {
+        order: 3;
+        width: 100%;
+        margin: 8px 0 4px;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .navigation-icons {
+        order: 2;
+    }
+
+    .mainbody {
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+    }
+
+    .categories {
+        width: 100%;
+        height: auto;
+        max-height: 220px;
+        overflow-y: auto;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .videos {
+        width: 100%;
+        height: auto;
+        overflow-y: visible;
+    }
+
+    .video {
+        width: calc(50% - 12px);
+    }
+}
+
+/* Small phones (iPhone etc.) */
+@media (max-width: 480px) {
+
+    .logo img {
+        width: 80px;
+    }
+
+    .navbar .searchbar {
+        margin: 6px 0 2px;
+    }
+
+    /* Hide mic icon on very small screens to save space */
+    .mic-icon {
+        display: none;
+    }
+
+    .video {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .category {
+        padding: 0 16px;
+    }
+
+    .categories {
+        max-height: 180px;
+    }
+}

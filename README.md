@@ -10,3 +10,4 @@ The prerequisite for this building this Youtube clone is HTML & CSS.
 ## Certificate:
 
 ![YouTube page certificate](YouTube-page-with-HTML-&-CSS.png)
+- Please use this link: [YouTube Clone](https://kholofelomoropane-faketube.netlify.app/)

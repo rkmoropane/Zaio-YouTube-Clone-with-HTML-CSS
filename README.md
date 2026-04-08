@@ -6,3 +6,7 @@ The prerequisite for this building this Youtube clone is HTML & CSS.
 
 ### How to access my YouTube Clone built with only HTML & CSS.
 - Please use this link: `https://kholofelomoropane-youtube-zaio.netlify.app/`
+
+## Certificate:
+
+![YouTube page certificate](YouTube-page-with-HTML-&-CSS.png)
